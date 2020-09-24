@@ -18,11 +18,6 @@ public class TestConsul {
                 .setHost("192.168.6.107")
                 .setPort(8500)
                 .setTimeout(50000)
-//                        .setIdleTimeoutUnit(TimeUnit.SECONDS)
-//                        .setIdleTimeout(1)
-//                .setMaxWaitQueueSize(-1)
-//                        .setMaxPoolSize(500)
-//                .setTcpKeepAlive(true)
                 .setLogActivity(false);
         for (int i = 0; i < 300; i++) {
             final int finalI = i;

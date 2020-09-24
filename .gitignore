@@ -21,3 +21,26 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+### Vert.x ###
+.vertx/
+### IntelliJ IDEA ###
+
+## 忽略其他配置文件，防止冲突
+.idea/
+.gradle/
+*.iml
+
+##忽略输出文件夹
+out/
+build/
+target
+*.bak
+.project
+.settings/
+.classpath
+.factorypath
+.vscode/
+doc/java/
+node_modules
+package-lock.json
